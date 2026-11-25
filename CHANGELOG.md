@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0
+
+- **FKS Banking integration** (`Config.FKS_Banking`, off by default): company bills written with `/billing` in
+  fks-banking are paid straight into the company balance and show in the ledger as "Bank bill" (number, payer and
+  reason).
+- New server exports `BankingEnabled`, `GetCompanyByJob` and `AddBillIncome` (only fks-banking may call it).
+- Console warning when `Config.FKS_Banking` is on but fks-banking is not running.
+
 ## 1.0.0
 
 First public release.

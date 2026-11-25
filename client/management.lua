@@ -279,7 +279,7 @@ end
 ---------------------------------------------------------------------------
 -- Ledger
 ---------------------------------------------------------------------------
-local TX_ICON = { deposit = '+', withdraw = '-', register = '+', store = '+', tax = '-', tax_failed = '!', expense = '-', refund = '±', admin = '±' }
+local TX_ICON = { deposit = '+', withdraw = '-', register = '+', store = '+', tax = '-', tax_failed = '!', expense = '-', refund = '±', admin = '±', bank_bill = '+' }
 
 local function LedgerPage()
     local L = M.ledger

@@ -109,6 +109,7 @@ Locales.de = {
     tx_type = 'Art', balance_before = 'Stand vorher', balance_after = 'Stand nachher', responsible = 'Verantwortlich',
     tx_deposit = 'Einzahlung', tx_withdraw = 'Abhebung', tx_expense = 'Firmenausgabe', tx_tax = 'Automatische Steuer', tx_tax_failed = 'Steuer nicht eingezogen',
     tx_register = 'Kasseneinnahme', tx_refund = 'Erstattung', tx_store = 'Ladenverkauf', tx_admin = 'Verwaltung', tx_purchase = 'Kauf', tx_sale = 'Verkauf',
+    tx_bank_bill = 'Bankrechnung', tx_bank_bill_desc = 'Rechnung %s bezahlt von %s: %s',
     tx_deposit_desc = 'Bareinzahlung', tx_withdraw_desc = 'Barabhebung', tx_withdraw_failed = 'Abhebung rückgängig gemacht',
     tx_tax_desc = 'Automatische Steuer (%s)', tx_tax_partial = 'Teilsteuer: %s von %s', tx_tax_failed_desc = '%s nicht eingezogen (Fehlschlag %s in Folge)',
     tx_register_desc = '%s abgerechnet: %s', tx_register_plain = '%s abgerechnet', tx_rename = 'Namensänderung: %s -> %s', tx_blip = 'Neuer Blip: %s',

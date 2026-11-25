@@ -109,6 +109,7 @@ Locales.fr = {
     tx_type = 'Type', balance_before = 'Solde avant', balance_after = 'Solde après', responsible = 'Responsable',
     tx_deposit = 'Dépôt', tx_withdraw = 'Retrait', tx_expense = 'Dépense de l’entreprise', tx_tax = 'Taxe automatique', tx_tax_failed = 'Taxe non perçue',
     tx_register = 'Recette de caisse', tx_refund = 'Remboursement', tx_store = 'Vente boutique', tx_admin = 'Administration', tx_purchase = 'Achat', tx_sale = 'Vente',
+    tx_bank_bill = 'Facture bancaire', tx_bank_bill_desc = 'Facture %s payée par %s : %s',
     tx_deposit_desc = 'Dépôt en liquide', tx_withdraw_desc = 'Retrait en liquide', tx_withdraw_failed = 'Retrait annulé',
     tx_tax_desc = 'Taxe automatique (%s)', tx_tax_partial = 'Taxe partielle : %s sur %s', tx_tax_failed_desc = '%s non perçu (échec %s de suite)',
     tx_register_desc = 'Facturé à %s : %s', tx_register_plain = 'Facturé à %s', tx_rename = 'Changement de nom : %s -> %s', tx_blip = 'Nouveau blip : %s',

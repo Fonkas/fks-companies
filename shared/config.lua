@@ -271,3 +271,10 @@ Config.CompanySync = {
 
 -- Anti-spam: minimum ms between two calls of the same action by the same player
 Config.RateLimit = 400
+
+-- FKS Banking (fks-banking) integration. true = company bills written with /billing ("Company bill", for the jobs in
+-- fks-banking's Config.Billing.CompanyJobs) pay this company automatically: the money goes into the company balance
+-- and shows in the ledger of the management panel as "Bank bill" (bill number, payer, reason).
+-- Needs fks-banking running (a warning is printed in the console when it is not). false = nothing changes here and
+-- fks-banking hides the company bill option.
+Config.FKS_Banking = false

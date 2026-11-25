@@ -110,6 +110,7 @@ Locales.pt = {
     tx_type = 'Tipo', balance_before = 'Saldo anterior', balance_after = 'Saldo seguinte', responsible = 'Responsável',
     tx_deposit = 'Depósito', tx_withdraw = 'Levantamento', tx_expense = 'Despesa da empresa', tx_tax = 'Imposto automático', tx_tax_failed = 'Imposto não cobrado',
     tx_register = 'Receita da caixa', tx_refund = 'Reembolso', tx_store = 'Venda na loja', tx_admin = 'Administração', tx_purchase = 'Compra', tx_sale = 'Venda',
+    tx_bank_bill = 'Fatura bancária', tx_bank_bill_desc = 'Fatura %s paga por %s: %s',
     tx_deposit_desc = 'Depósito em dinheiro', tx_withdraw_desc = 'Levantamento em dinheiro', tx_withdraw_failed = 'Levantamento revertido',
     tx_tax_desc = 'Imposto automático (%s)', tx_tax_partial = 'Imposto parcial: %s de %s', tx_tax_failed_desc = '%s não cobrado (falha %s seguida)',
     tx_register_desc = 'Cobrado a %s: %s', tx_register_plain = 'Cobrado a %s', tx_rename = 'Mudança de nome: %s -> %s', tx_blip = 'Novo ícone: %s',

@@ -109,6 +109,7 @@ Locales.en = {
     tx_type = 'Type', balance_before = 'Balance before', balance_after = 'Balance after', responsible = 'Responsible',
     tx_deposit = 'Deposit', tx_withdraw = 'Withdrawal', tx_expense = 'Company expense', tx_tax = 'Automatic tax', tx_tax_failed = 'Tax not collected',
     tx_register = 'Register income', tx_refund = 'Refund', tx_store = 'Store sale', tx_admin = 'Administration', tx_purchase = 'Purchase', tx_sale = 'Sale',
+    tx_bank_bill = 'Bank bill', tx_bank_bill_desc = 'Bill %s paid by %s: %s',
     tx_deposit_desc = 'Cash deposit', tx_withdraw_desc = 'Cash withdrawal', tx_withdraw_failed = 'Withdrawal reverted',
     tx_tax_desc = 'Automatic tax (%s)', tx_tax_partial = 'Partial tax: %s of %s', tx_tax_failed_desc = '%s not collected (failure %s in a row)',
     tx_register_desc = 'Charged to %s: %s', tx_register_plain = 'Charged to %s', tx_rename = 'Name change: %s -> %s', tx_blip = 'New blip: %s',

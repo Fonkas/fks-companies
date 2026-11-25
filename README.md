@@ -89,7 +89,7 @@ Opens the creation form at your position (a marker and a temporary blip show whe
 
 - **Identity**: name, framework job, internal ID (unique, e.g. `VAL-SALOON`; empty = `CO-0001`), initial owner (an online player — they become the Boss and get the job), blip, description.
 - **Finances**: starting balance (recorded in the ledger as an administration entry) and the automatic tax: on/off,
-  fixed amount or % of the balance, how often (1 h ... 7 days). A sentence under the form says exactly what will happen.
+  fixed amount or % of the balance, how often (0 to 30 days plus 0 to 23 hours). A sentence under the form says exactly what will happen.
 - **Capacity**: boss / general storage slots and weight (no upper limit unless you set `Config.Storage.maxSlots` /
   `maxWeight`), max employees.
 - **Sale**: list it straight away, price, public or not, negotiable.
@@ -244,7 +244,7 @@ Missing keys fall back to English. To add a language, copy `locales/en.lua` to `
 ## Menu icons
 The round buttons of the Management and Customization tabs use the pictures in `ui/icons/{name}.png`
 (white symbol on a transparent background, 256x256). Replace a file to change an icon; `Config.MenuIcons.enabled = false`
-goes back to the built-in fks-core icons. The prompts used to draw them are in [docs/icon-prompts.md](docs/icon-prompts.md).
+goes back to the built-in fks-core icons.
 
 ## Updates
 On start (and every `Config.VersionCheck.interval` hours) the server console shows `up to date (vX)` or `OUTDATED` by

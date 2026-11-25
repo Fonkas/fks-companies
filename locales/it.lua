@@ -109,6 +109,7 @@ Locales.it = {
     tx_type = 'Tipo', balance_before = 'Saldo prima', balance_after = 'Saldo dopo', responsible = 'Responsabile',
     tx_deposit = 'Deposito', tx_withdraw = 'Prelievo', tx_expense = 'Spesa aziendale', tx_tax = 'Tassa automatica', tx_tax_failed = 'Tassa non riscossa',
     tx_register = 'Incasso di cassa', tx_refund = 'Rimborso', tx_store = 'Vendita del negozio', tx_admin = 'Amministrazione', tx_purchase = 'Acquisto', tx_sale = 'Vendita',
+    tx_bank_bill = 'Fattura bancaria', tx_bank_bill_desc = 'Fattura %s pagata da %s: %s',
     tx_deposit_desc = 'Deposito in contanti', tx_withdraw_desc = 'Prelievo in contanti', tx_withdraw_failed = 'Prelievo annullato',
     tx_tax_desc = 'Tassa automatica (%s)', tx_tax_partial = 'Tassa parziale: %s di %s', tx_tax_failed_desc = '%s non riscossi (fallimento %s di fila)',
     tx_register_desc = 'Fatto pagare a %s: %s', tx_register_plain = 'Fatto pagare a %s', tx_rename = 'Cambio nome: %s -> %s', tx_blip = 'Nuovo blip: %s',

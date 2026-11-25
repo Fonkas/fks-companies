@@ -110,6 +110,7 @@ Locales.br = {
     tx_type = 'Tipo', balance_before = 'Saldo anterior', balance_after = 'Saldo depois', responsible = 'Responsável',
     tx_deposit = 'Depósito', tx_withdraw = 'Saque', tx_expense = 'Despesa da empresa', tx_tax = 'Imposto automático', tx_tax_failed = 'Imposto não cobrado',
     tx_register = 'Receita do caixa', tx_refund = 'Reembolso', tx_store = 'Venda na loja', tx_admin = 'Administração', tx_purchase = 'Compra', tx_sale = 'Venda',
+    tx_bank_bill = 'Fatura bancária', tx_bank_bill_desc = 'Fatura %s paga por %s: %s',
     tx_deposit_desc = 'Depósito em dinheiro', tx_withdraw_desc = 'Saque em dinheiro', tx_withdraw_failed = 'Saque revertido',
     tx_tax_desc = 'Imposto automático (%s)', tx_tax_partial = 'Imposto parcial: %s de %s', tx_tax_failed_desc = '%s não cobrado (falha %s seguida)',
     tx_register_desc = 'Cobrado de %s: %s', tx_register_plain = 'Cobrado de %s', tx_rename = 'Mudança de nome: %s -> %s', tx_blip = 'Novo blip: %s',

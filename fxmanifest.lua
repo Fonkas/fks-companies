@@ -7,7 +7,7 @@ lua54 'yes'
 name 'fks-companies'
 author 'FKS'
 description 'Company management for RedM (VORP / RSG): employees, contracts, positions, ledger, taxes, storages, register, duty, NPC stores and a company marketplace'
-version '1.0.0'
+version '1.1.0'
 license 'GPL-3.0-or-later'
 fks_core_version '2.1.2' -- minimum fks-core version (VORP / RSG bridge, shared UI, notifications)
 
@@ -48,6 +48,7 @@ server_scripts {
     'server/marketplace.lua',
     'server/store.lua',
     'server/admin.lua',
+    'server/banking.lua',     -- FKS Banking integration (Config.FKS_Banking)
 }
 
 -- the contract / bill documents are an fks-core UI extension (loaded into the fks-core NUI, no ui_page here)
